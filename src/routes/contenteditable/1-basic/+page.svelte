@@ -1,7 +1,3 @@
-<script lang="ts">
-	let element: HTMLElement;
-</script>
-
-<div id="editor" class="editor" bind:this={element} contenteditable>
+<div class="editor" contenteditable>
 	<p>Click here to edit</p>
 </div>
